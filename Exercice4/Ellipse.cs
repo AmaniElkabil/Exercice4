@@ -32,7 +32,7 @@ namespace Point
         }
         public float péerimetre()
         {
-            return (float)Math.Pi * ( (Math.sqrt(Math.pow(grandAxe, 2) + (Math.pow(petitAxe, 2)) / 2);
+            return (float) 2 * Math.Pi * (Math.sqrt((Math.pow(grandAxe, 2)) + (Math.pow(petitAxe, 2)) / 2));
         }
     }
 }
